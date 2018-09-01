@@ -13,7 +13,7 @@ const config = {
  
 const db = firebase.database();
 
-export {firebase, db as default};
+export {firebase, db as default}; 
 
 // db.ref("expenses").on("child_removed", (snapshot) => {
 //     console.log(snapshot.key, snapshot.val());
